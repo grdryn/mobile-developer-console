@@ -25,13 +25,13 @@ let goOutput
 //   goOutput.kill("SIGINT")
 // })
 
-describe('Mobile Clients', () => {
-  require('./mobile_clients')
-});
+// describe('Mobile Clients', () => {
+//   require('./mobile_clients')
+// });
 
-describe('Service Bindings', () => {
-  require('./bindings');
-});
+// describe('Service Bindings', () => {
+//   require('./bindings');
+// });
 
 describe('Websocket updates', () => {
   require('./websockets');
